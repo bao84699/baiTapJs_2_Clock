@@ -7,3 +7,13 @@ function thoigian(){
     setTimeout(thoigian,1000);
 }
 thoigian();
+
+let now = new Date();
+let h = now.getHours();
+if (h < 12) {
+    document.body.style.backgroundColor = "#ffffff";
+} else if (h < 18) {
+    document.body.style.backgroundColor = "#e1ffa9";
+} else {
+    document.body.style.backgroundColor = "#dbfbff";
+}

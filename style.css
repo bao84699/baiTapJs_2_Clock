@@ -7,12 +7,21 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 p {
-    margin-top: 200px;
+    margin-top: 30px;
     color: #3A1B8E;
     font-family: Diplomata;
     font-weight: 400;
     font-size: 128px;
+}
+
+.a {
+    color: #005e38;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: 64px;
+    margin-top: 60px;
 }
